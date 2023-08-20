@@ -1,7 +1,4 @@
-"""
-Aplikasi Deteksi Gempa Terkini
-MODULARISASI DENGAN FUNCTION
-"""
+import bs4
 
 def ekstrasi_data():
     """
@@ -14,6 +11,9 @@ def ekstrasi_data():
     Dirasakan : Dirasakan (Skala MMI): II Cugenang, II Kota Cianjur, II Karangtengah, II Warungkondang
     :return:
     """
+
+    soup = bs4.BeautifulSoup("<p>Some<b>bad<i>HTML")
+
     hasil = dict()
     hasil['tanggal'] = '24 agustus 2023'
     hasil['waktu'] = '16:29:17 WIB'
