@@ -35,6 +35,7 @@ def ekstrasi_data():
         bt = None
         lokasi = None
         dirasakan = None
+
         for res in result:
             print(i, res)
             if i == 1:
