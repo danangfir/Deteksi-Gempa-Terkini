@@ -78,3 +78,8 @@ def tampilkan_data(result):
     print(f"koordinat: LS={result['koordinat']['ls']}, BT={result['koordinat']['bt']}")
     print(f"lokasi: {result['lokasi']}")
     print(f"dirasakan: {result['dirasakan']}")
+
+
+
+
+
